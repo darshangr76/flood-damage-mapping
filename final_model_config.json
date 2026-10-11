@@ -1,0 +1,20 @@
+{
+  "models": [
+    "resnet18",
+    "resnet34",
+    "resnet50"
+  ],
+  "weights": [
+    "/content/kuro_v2_r18.pth",
+    "/content/kuro_v2_r34.pth",
+    "/content/kuro_v2_r50.pth"
+  ],
+  "threshold": 0.45,
+  "tta": false,
+  "input_channels": 5,
+  "training_samples": 1739,
+  "final_iou": 0.7218,
+  "final_recall": 0.8087,
+  "val_samples": 125,
+  "notes": "Evaluated on original v1 val split for fair comparison"
+}
