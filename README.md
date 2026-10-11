@@ -36,3 +36,13 @@ print(result)
 2. SAR shadow in steep Himalayan valleys
 3. Trained on Kuro Siwo 2015-2022 events, not 2026 Nepal flood
 4. TTA with flips degraded performance (do not use)
+## Pretrained Weights
+
+Download from Hugging Face:  
+https://huggingface.co/Darshan764/flood-damage-unet
+
+| File | Backbone | Size |
+|---|---|---|
+| `kuro_v2_r18.pth` | ResNet18 | 57.5 MB |
+| `kuro_v2_r34.pth` | ResNet34 | 97.9 MB |
+| `kuro_v2_r50.pth` | ResNet50 | 130 MB |
