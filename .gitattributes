@@ -1,0 +1,4 @@
+*.tif binary
+*.tiff binary
+*.pth binary
+*.ckpt binary
